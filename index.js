@@ -18,4 +18,4 @@ export class AnujVarma extends HTMLElement {
   }
 }
 
-customElements.define("anuj-varma", AnujVarma);
+// customElements.define("anuj-varma", AnujVarma);
