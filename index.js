@@ -1,4 +1,4 @@
-export function converter(sentence) {
+function converter(sentence) {
   //   let capitalized = [];
   //   let words = sentence.split(" "); //split the sentence into words
   //   words.forEach((word) => {
