@@ -1,4 +1,4 @@
-function converter(sentence) {
+export function converter(sentence) {
   let capitalized = [];
   let words = sentence.split(" "); //split the sentence into words
   words.forEach((word) => {
@@ -9,4 +9,10 @@ function converter(sentence) {
   return converted;
 }
 
-module.exports = converter;
+export class AnujVarma extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `<h1>Anuj Varma</h1>`;
+  }
+}
+
+customElements.define("anuj-varma", AnujVarma);
