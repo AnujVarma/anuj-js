@@ -12,10 +12,10 @@ export function converter(sentence) {
 
 // module.exports = converter;
 
-// export class AnujVarma extends HTMLElement {
-//   connectedCallback() {
-//     this.innerHTML = `<h1>Anuj Varma</h1>`;
-//   }
-// }
+export class AnujVarma extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `<h1>Anuj Varma</h1>`;
+  }
+}
 
-// customElements.define("anuj-varma", AnujVarma);
+customElements.define("anuj-varma", AnujVarma);
