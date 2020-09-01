@@ -1,4 +1,4 @@
-function converter(sentence) {
+export function converter(sentence) {
   //   let capitalized = [];
   //   let words = sentence.split(" "); //split the sentence into words
   //   words.forEach((word) => {
@@ -10,7 +10,7 @@ function converter(sentence) {
   return "OAKLAND";
 }
 
-module.exports = converter;
+// module.exports = converter;
 
 // export class AnujVarma extends HTMLElement {
 //   connectedCallback() {
