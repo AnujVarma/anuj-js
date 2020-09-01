@@ -10,10 +10,12 @@ export function converter(sentence) {
   return "OAKLAND";
 }
 
-export class AnujVarma extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `<h1>Anuj Varma</h1>`;
-  }
-}
+module.exports = converter;
 
-customElements.define("anuj-varma", AnujVarma);
+// export class AnujVarma extends HTMLElement {
+//   connectedCallback() {
+//     this.innerHTML = `<h1>Anuj Varma</h1>`;
+//   }
+// }
+
+// customElements.define("anuj-varma", AnujVarma);
