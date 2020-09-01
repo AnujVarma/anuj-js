@@ -14,7 +14,7 @@ export function converter(sentence) {
 
 export class AnujVarma extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = `<h1>Anuj Varma</h1>`;
+    this.innerHTML = `<h1>Explo Site</h1>`;
   }
 }
 
