@@ -1,0 +1,22 @@
+{
+  "name": "anuj-js",
+  "version": "1.0.0",
+  "description": "testing library",
+  "main": "index.js",
+  "scripts": {
+    "test": "app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnujVarma/anuj-js.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "anuj <anuj@prompthire.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnujVarma/anuj-js/issues"
+  },
+  "homepage": "https://github.com/AnujVarma/anuj-js#readme"
+}
