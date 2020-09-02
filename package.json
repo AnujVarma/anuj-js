@@ -1,6 +1,6 @@
 {
   "name": "anuj-js",
-  "version": "1.6.8",
+  "version": "1.6.9",
   "description": "testing library",
   "main": "lib/index.js",
   "scripts": {
