@@ -2,9 +2,11 @@
   "name": "anuj-js",
   "version": "1.6.8",
   "description": "testing library",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "app.js"
+    "test": "app.js",
+    "build": "webpack --mode production",
+    "build:commonjs": "babel src --out-dir lib"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,13 @@
     "react-shadow-dom-retarget-events": "^1.0.11"
   },
   "devDependencies": {
-    "@types/react": "^16.9.49"
+    "@babel/cli": "^7.11.5",
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "@types/react": "^16.9.49",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   }
 }
