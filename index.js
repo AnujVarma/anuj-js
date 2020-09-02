@@ -16,8 +16,10 @@ export class AnujV2 extends HTMLElement {
     return ["title"];
   }
 
-  mountPoint: HTMLSpanElement;
-  title: string;
+  // mountPoint: HTMLSpanElement;
+  mountPoint;
+  // title: string;
+  title;
 
   createCollapsed(title) {
     return React.createElement(
