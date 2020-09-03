@@ -9,7 +9,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import * as retargetEvents from "react-shadow-dom-retarget-events";
-import ReactComponent from "./react-component";
+import ReactComponent from "./src/react-component";
 
 // class AnujV2 extends HTMLElement {
 //   constructor() {
