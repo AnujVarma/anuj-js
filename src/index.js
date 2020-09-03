@@ -18,14 +18,14 @@ import ReactComponent from "./react-component";
 // }
 
 export class AnujV2 extends HTMLElement {
-  static get observedAttributes() {
-    return ["title"];
-  }
+  // static get observedAttributes() {
+  //   return ["title"];
+  // }
 
   // mountPoint: HTMLSpanElement;
   mountPoint;
   // title: string;
-  title;
+  // title;
 
   createCollapsed(title) {
     return React.createElement(
@@ -45,11 +45,11 @@ export class AnujV2 extends HTMLElement {
     retargetEvents(shadowRoot);
   }
 
-  attributeChangedCallback(name, oldValue, newValue) {
-    if (name === "title") {
-      ReactDOM.render(this.createCollapsed(newValue), this.mountPoint);
-    }
-  }
+  // attributeChangedCallback(name, oldValue, newValue) {
+  //   if (name === "title") {
+  //     ReactDOM.render(this.createCollapsed(newValue), this.mountPoint);
+  //   }
+  // }
 }
 
 // window.customElements.define('anuj-v2', AnujV2);
