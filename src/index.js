@@ -29,9 +29,6 @@ export class AnujV2 extends HTMLElement {
 
     const title = this.getAttribute("title");
     ReactDOM.render(this.createCollapsed(title), this.mountPoint);
-    console.log("PASS");
-    console.log(retargetEvents);
-    // @ts-ignore
-    retargetEvents(shadowRoot);
+    retargetEvents.default(shadowRoot);
   }
 }
