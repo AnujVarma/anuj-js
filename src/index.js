@@ -11,21 +11,8 @@ import * as ReactDOM from "react-dom";
 import * as retargetEvents from "react-shadow-dom-retarget-events";
 import ReactComponent from "./react-component";
 
-// class AnujV2 extends HTMLElement {
-//   constructor() {
-//      super();
-//  }
-// }
-
 export class AnujV2 extends HTMLElement {
-  // static get observedAttributes() {
-  //   return ["title"];
-  // }
-
-  // mountPoint: HTMLSpanElement;
   mountPoint;
-  // title: string;
-  // title;
 
   createCollapsed(title) {
     return React.createElement(
@@ -42,14 +29,8 @@ export class AnujV2 extends HTMLElement {
 
     const title = this.getAttribute("title");
     ReactDOM.render(this.createCollapsed(title), this.mountPoint);
+    console.log(retargetEvents);
+    // @ts-ignore
     retargetEvents(shadowRoot);
   }
-
-  // attributeChangedCallback(name, oldValue, newValue) {
-  //   if (name === "title") {
-  //     ReactDOM.render(this.createCollapsed(newValue), this.mountPoint);
-  //   }
-  // }
 }
-
-// window.customElements.define('anuj-v2', AnujV2);
