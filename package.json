@@ -2,11 +2,11 @@
   "name": "anuj-js",
   "version": "1.7.5",
   "description": "testing library",
-  "main": "lib/index.js",
+  "main": "embeddo.js",
   "scripts": {
     "test": "app.js",
-    "build": "webpack --mode production",
-    "build:commonjs": "babel src --out-dir lib --extensions '.ts,.tsx,.js'"
+    "build": "webpack",
+    "build:commonjs": "babel src --out-file embeddo.js --extensions '.ts,.tsx,.js'"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/AnujVarma/anuj-js#readme",
   "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.4.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-shadow-dom-retarget-events": "^1.0.11"
